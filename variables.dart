@@ -5,7 +5,7 @@ void main() {
   int a = 10;
   int b = 20;
   print(a + b);
-  print(a.isEven);
+  print("Even:${a.bitLength}");
 
   // 2) Double
   double c = 10.22;
