@@ -67,4 +67,8 @@ void main() {
 
   int? someVal;
   print(someVal);
+
+  // to know the length and use of properties of the nuallable variable and we can able to return a value  if the value is null using ?? operator
+
+  print(vs?.length ?? 0);
 }
