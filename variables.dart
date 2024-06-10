@@ -58,4 +58,13 @@ void main() {
   print(n);
 
 //   A final variable can be set only once; a const variable is a compile-time constant. (Const variables are implicitly final.)
+
+// optional variables and nullable variables
+// String / int / bool and null
+
+  String? vs = null;
+  print(vs);
+
+  int? someVal;
+  print(someVal);
 }
