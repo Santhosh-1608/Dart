@@ -24,4 +24,23 @@ void main() {
   } else {
     print('${c} is greatest');
   }
+
+  // ternary operator
+  String msg = 'hello World';
+  String res = msg.startsWith('hi')
+      ? 'yes'
+      : 'no'; // print yes if the msg starts with h else no
+  print(res);
+
+// switch statement
+// In dart break statement is not needed in switch it is mandatory only if any case is empty
+  int choice = 1;
+  switch (choice) {
+    case 1:
+      print('one');
+    case 2:
+      print('two');
+    default:
+      print('No');
+  }
 }
